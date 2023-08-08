@@ -1,0 +1,43 @@
+{
+  "titrants": {
+    "hcl": {
+      "label": "Hydrochloric Acid",
+      "value": "hcl",
+      "indicator": "Methyl Orange",
+      "color": "bg-lime-200"
+    },
+    "naoh": {
+      "label": "Sodium Hydroxide",
+      "value": "naoh",
+      "indicator": "Phenopthelein",
+      "color": "bg-gray-900"
+    },
+    "na2s2o3": {
+      "label": "Sodium Thiosulfate",
+      "value": "na2s2o3",
+      "indicator": "Starch Solution",
+      "color": "bg-red-300"
+    },
+    "kmno4": {
+      "label": "Potassium Permanganate",
+      "value": "kmno4",
+      "indicator": "Potassium Dichromate",
+      "color": "bg-purple-600"
+    },
+    "edta": {
+      "label": "Ethylenediaminetetraacetic Acid",
+      "value": "edta",
+      "indicator": "Eriochrome Black",
+      "color": "bg-yellow-300"
+    }
+  },
+
+  "titrates": {
+    "hcl": [{ "label": "Sodium Hydroxide", "value": "naoh" }],
+    "nh4oh": [{ "label": "Ammonium Hydroxide", "value": "nh4oh" }],
+    "na2s2o3": [{ "label": "Iodine", "value": "I2" }],
+    "kmno4": [{ "label": "Mohrs Salt", "value": "(NH4)2Fe(SO4)2(H2O)6" }],
+    "naoh": [{ "label": "Oxalic Acid", "value": "c2h2o4" }],
+    "edta": [{ "label": "Calcium Ions", "value": "ca" }]
+  }
+}
